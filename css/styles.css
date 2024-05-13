@@ -63,7 +63,7 @@ body{
     color: var(--blanco);
     text-decoration: none;
     background-color: red;
-    padding: 1rem 3rem;
+    padding: 0.5rem 2rem;
     border-radius:10rem;
 }
 
@@ -76,7 +76,7 @@ h2{
 }
 
 h3{
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
 h1,h2,h3{
