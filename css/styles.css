@@ -65,6 +65,7 @@ body{
     background-color: red;
     padding: 0.5rem 2rem;
     border-radius:10rem;
+    text-decoration: none;
 }
 
 h1{
@@ -125,6 +126,10 @@ fieldset{
     font-family: "Robotop", sans-serif;
 }
 
+.subrayado{
+    text-decoration: underline;
+}
+
 .navegacion-principal a{
     text-align: center;
     color: var(--blanco);
@@ -144,7 +149,7 @@ fieldset{
     background-image: url(../img/minecraft_shaders_background_960px-529px.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 64rem;
+    height: 100rem;
     position: relative;
 }
 
