@@ -1,0 +1,254 @@
+:root{
+    --blanco: #ffffff;
+    --negro: #000000;
+    --verde1: #13FF00;
+    --verde2: #00FF36;
+    --verde3: #00B30E;
+    --verde4: #0A8100;
+    --azul1: #0000ff;
+    --rojo1: #F02721;
+    /*tamaño fuentes*/
+    --pequeño:16px;
+    --mediadno:32px;
+    --grande:64px;
+}
+
+html{
+    font-size: 33.2%;
+}
+
+body{
+    font-family: "Press Start 2P", sans-serif;
+    font-size: var(--pequeño); /*1rem = 16px*/
+}
+
+/*utilidades*/
+.contenedor{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.bg-secundario{
+    background-color: var(--verde3);
+}
+
+.boton{
+    background-color: var(--verde1);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 2rem;
+    width: 90%;
+    border: none;
+}
+
+@media (min-width: 480px) {
+    .boton{
+        width: auto;
+    }
+}
+
+.centrado{
+    text-align: center;
+}
+
+.youtube{
+    font-family: "Robotop", sans-serif;
+    text-align: center;
+    color: var(--blanco);
+    text-decoration: none;
+    background-color: red;
+    padding: 1rem 3rem;
+    border-radius:10rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 5rem;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+fieldset{
+    border: none;
+}
+
+.sombra{
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.45);
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2.5rem;
+}
+
+.titulo{
+    color: var(--verde1);
+    text-align: center;
+    font-size: 3.8rem;
+}
+
+.titulo span{
+    color: var(--azul1);
+    font-size: 1.8rem;
+}
+
+.navegacion-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--verde3);
+}
+
+@media (min-width: 700px) {
+    .navegacion-principal{
+        flex-direction: row;
+    }
+    
+}
+
+.textonormal{
+    font-family: "Robotop", sans-serif;
+}
+
+.navegacion-principal a{
+    text-align: center;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.navegacion-principal a:hover{
+    color: var(--blanco);
+    background-color: var(--azul1);
+}
+
+/*estilos hero*/
+.hero{
+    background-image: url(../img/minecraft_shaders_background_960px-529px.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 64rem;
+    position: relative;
+}
+
+.boton{
+    font-size: 4rem;
+}
+
+.contenido-hero{
+    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgb(0 0 0 / 35%);
+    color: var(--blanco);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacion{
+    display: flex;
+}
+
+.micontenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+@media (min-width:700px) {
+    .micontenido{
+        flex-direction: row;
+    }
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.contenido h3{
+    font-weight: normal;
+    color: var(--verde2);
+}
+
+.contenido p{
+    font-size: 1.8rem;
+    line-height: 2;
+    text-align: center;
+}
+
+.icono{
+    height: 15rem;
+    width: 15rem;
+    background-color: var(--azul1);
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    background-color: gray;
+    font-family: "Robotop", sans-serif;
+    width: min(100rem, 100%);
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.formulario legend{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    color: var(--rojo1);
+}
+
+.campo{
+    margin-bottom: 2rem;
+}
+
+.campo label{
+    text-align: justify;
+    display: block;
+    margin-bottom: 0.7rem;
+}
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+footer{
+    text-align: center;
+}
