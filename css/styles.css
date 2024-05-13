@@ -239,13 +239,13 @@ fieldset{
 .campo label{
     text-align: justify;
     display: block;
-    margin-bottom: 0.7rem;
+    margin-bottom: 1rem;
 }
 
 .input-text{
-    width: 100%;
+    width: 96%;
     border: none;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 1rem;
 }
 
