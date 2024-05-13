@@ -99,12 +99,12 @@ fieldset{
 .titulo{
     color: var(--verde1);
     text-align: center;
-    font-size: 3.8rem;
+    font-size: 5rem;
 }
 
 .titulo span{
     color: var(--azul1);
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .navegacion-principal{
@@ -239,7 +239,8 @@ fieldset{
 .campo label{
     text-align: justify;
     display: block;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 2.5rem;
 }
 
 .input-text{
