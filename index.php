@@ -1,26 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head><!--website-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CraftNuv | Guia Para Novatos en Minecraft</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body><!--titulo-->
-    <header>
-        <h1 class="titulo">Minecraft Para Nuevos Jugadores<span>GUIA</span></h1>
-    </header><!--navegacion-->
-    <div class="bg-secundario">
-        <nav class="navegacion-principal contenedor">
-            <a class="navegacion-principal" href="recursos.html">Recursos</a>
-            <a class="navegacion-principal" href="crafteos.html">Crafteos</a>
-            <a class="navegacion-principal" href="supervivencia.html">Supervivencia</a>
-        </nav>
-    </div><!--portada-->
+<?php
+    include 'db.php';
+    include 'header.php';
+?>
     <section class="hero">
         <div class="contenido-hero">
             <h2>Guia Básica de Minecraft</h2>
@@ -73,44 +54,6 @@
             </section>
         </div>
     </main>
-        <section><!--contacto-->
-            <h3 class="textonormal">Contacto</h3>
-            <form class="formulario" action="">
-                <fieldset>
-                    <legend>Contáctame Rellenando Tus Datos</legend>
-                    <div class="contenedor-campos">
-                        <div class="campo">
-                            <div>
-                                <label for="">Nombre:</label>
-                                <input class="input-text" type="text" name="nombre" placeholder="Tu nombre y apellido">        
-                            </div>
-                        </div>
-                        <div class="campo">
-                            <div>
-                                <label for="">Telefono:</label>
-                                <input class="input-text" type="tel" name="" id="" placeholder="Tu número de teléfono">
-                            </div>
-                        </div>
-                        <div class="campo">
-                            <div>
-                                <label for="">Correo:</label>
-                                <input class="input-text" type="email" name="correo electronico" id="" placeholder="Tu correo eléctronico">
-                        </div>
-                        <div class="campo">
-                            <div>
-                                <label for="">Mensaje:</label>
-                                <textarea class="input-text" name="mensaje" id="" cols="30" rows="10"></textarea>
-                            </div>
-                        </div>
-                        <div>
-                            <input class="boton"type="submit" value="Enviar">
-                        </div>
-                    </div><!--contenedor campos-->
-                </fieldset>
-            </form>
-        </section><!--pie-->
-    <footer class="centrado">
-        <p class="textonormal subrayado">Todos los Derechos Reservados | Copyright &copy; 2024 | <a href="https://www.youtube.com/channel/UCPRHsKnM2JySrFyZ7wmG94g">YouTube</a></p>
-    </footer>
-</body>
-</html>
+<?php
+    include "footer.php";
+    ?>

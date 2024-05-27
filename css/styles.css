@@ -7,10 +7,13 @@
     --verde4: #0A8100;
     --azul1: #0000ff;
     --rojo1: #F02721;
+    --rojo2: #FF0000;
+
     /*tamaño fuentes*/
     --pequeño:16px;
     --mediadno:32px;
     --grande:64px;
+    --supergrande:128px;
 }
 
 html{
@@ -55,6 +58,7 @@ body{
 
 .centrado{
     text-align: center;
+    font-size: 3rem;
 }
 
 .youtube{
@@ -73,7 +77,7 @@ h1{
 }
 
 h2{
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 h3{
@@ -115,7 +119,7 @@ fieldset{
     background-color: var(--verde3);
 }
 
-@media (min-width: 700px) {
+@media (min-width: 784px) {
     .navegacion-principal{
         flex-direction: row;
     }
@@ -134,7 +138,7 @@ fieldset{
     text-align: center;
     color: var(--blanco);
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 700;
     padding: 1rem 1rem 1rem 1rem;
 }
@@ -149,7 +153,7 @@ fieldset{
     background-image: url(../img/minecraft_shaders_background_960px-529px.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100rem;
+    height: 106rem;
     position: relative;
 }
 
@@ -159,7 +163,7 @@ fieldset{
 
 .contenido-hero{
     background-color: rgba(0, 0, 0, 0.35);
-    background-color: rgb(0 0 0 / 35%);
+    background-color: rgb(0 0 0 / 64%);
     color: var(--blanco);
     position: absolute;
     top: 0px;
@@ -171,6 +175,8 @@ fieldset{
     text-align: center;
     align-items: center;
     justify-content: center;
+    font-size: 3.5rem;
+    font-weight: bold;
 }
 
 .informacion{
@@ -221,7 +227,7 @@ fieldset{
 }
 
 .formulario{
-    background-color: gray;
+    background-color: rgb(194, 194, 194);
     font-family: "Robotop", sans-serif;
     width: min(100rem, 100%);
     font-weight: bold;
@@ -234,11 +240,17 @@ fieldset{
     text-align: center;
     font-size: 5rem;
     margin-bottom: 2rem;
-    color: var(--rojo1);
+    color: var(--rojo2);
 }
 
 .campo{
     margin-bottom: 2rem;
+    color: var(--negro);
+}
+
+.campo1{
+    margin-bottom: 2rem;
+    font-weight: bold;
 }
 
 .campo label{
