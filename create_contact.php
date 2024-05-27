@@ -1,0 +1,3 @@
+<?php
+
+echo "CREANDO CONTACTO NUEVO <BR>";
