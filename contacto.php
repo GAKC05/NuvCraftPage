@@ -5,7 +5,7 @@
 <main>
     <section><!--contacto-->
             <h3 class="textonormal">Contacto</h3>
-            <form class="formulario" action="create_contact.php" method="GET">
+            <form class="formulario" action="create_contact.php" method="POST">
                 <fieldset>
                     <legend>Contáctame Rellenando Tus Datos</legend>
                     <div class="contenedor-campos">
