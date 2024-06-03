@@ -18,6 +18,12 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
     $stmt = $conn->prepare($sql);
     $result = $stmt->execute();
 
+    if($result){
+        echo "CONTACTO CREADO EXITOSAMENTE";
+    }else{
+        echo "ERROR AL CREAR CONTACTO";
+    }
+
 }else{
     echo "ERROR EN METODO POST";
 }
