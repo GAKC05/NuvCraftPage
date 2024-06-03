@@ -18,13 +18,13 @@
                         <div class="campo">
                             <div>
                                 <label for="">Telefono:</label>
-                                <input class="input-text" type="tel" name="" id="" placeholder="Tu número de teléfono">
+                                <input class="input-text" type="tel" name="telefono" id="" placeholder="Tu número de teléfono">
                             </div>
                         </div>
                         <div class="campo">
                             <div>
                                 <label for="">Correo:</label>
-                                <input class="input-text" type="email" name="correo electronico" id="" placeholder="Tu correo eléctronico">
+                                <input class="input-text" type="email" name="correo" id="" placeholder="Tu correo eléctronico">
                         </div>
                         <div class="campo">
                             <div>
