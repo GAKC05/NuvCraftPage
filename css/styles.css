@@ -272,9 +272,11 @@ footer{
 }
 
 /*MENSAJES FORMULARIOS*/
-.errormsg{
-    font-family: "RoboTop", sans-serif;
-    width: 50%;
+.verificacionmsg{
+    .contenedor{
+        font-weight: bold;
+        text-align: center;
+    }
 }
 
 .success{
