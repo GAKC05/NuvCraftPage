@@ -20,7 +20,7 @@
             <a class="navegacion-principal" href="recursos.php">Recursos</a>
             <a class="navegacion-principal" href="crafteos.php">Crafteos</a>
             <a class="navegacion-principal" href="supervivencia.php">Supervivencia</a>
-            <a class="navegacion-principal" href="read.php">Leer Mensajes</a>
+            <a class="navegacion-principal" href="read.php">Mensajes</a>
             <a class="navegacion-principal" href="contacto.php">Contacto</a>
         </nav>
     </div><!--portada-->

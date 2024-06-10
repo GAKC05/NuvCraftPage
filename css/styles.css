@@ -270,3 +270,22 @@ fieldset{
 footer{
     text-align: center;
 }
+
+/*MENSAJES FORMULARIOS*/
+.errormsg{
+    font-family: "RoboTop", sans-serif;
+    width: 50%;
+}
+
+.success{
+    background-color: #00B30E;
+    color: #ffffff;
+
+    width: 50%;
+    text-align: center;
+}
+
+.error{
+    background-color: #F02721;
+    color: #ffffff;
+}
