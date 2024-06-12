@@ -13,20 +13,20 @@
 <h2>Mensajes</h2>
 
 <div class="contenedor listado">
-    <div class="fila cabecera">
-        <div class="campocabeccera textonormal">
+    <div class="fila listado">
+        <div class="campoCabecera textonormal">
             id
         </div>
-        <div class="campocabeccera textonormal">
+        <div class="campoCabecera textonormal">
             Nombre
         </div>
-        <div class="campocabeccera textonormal">
+        <div class="campoCabecera textonormal">
             Telefono
         </div>
-        <div class="campocabeccera textonormal">
+        <div class="campoCabecera textonormal">
             Correo
         </div>
-        <div class="campocabeccera textonormal">
+        <div class="campoCabecera textonormal">
             Mensaje
         </div>
     </div>
