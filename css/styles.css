@@ -300,8 +300,10 @@ footer{
 }
 
 .campoCabecera{
-    font-size: 2rem;
+    font-size: 6rem;
     font-weight: bold;
+    padding: 2rem 0;
+    background-color: #00FF36;
 }
 
 .fila{
