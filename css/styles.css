@@ -317,7 +317,10 @@ footer{
     grid-template-columns: .5fr 2fr 1fr 2fr 3fr;
 }
 
-.impar{
-    background-color: #FF0000;
-    color: #ffffff;
+.fila.impar{
+    background-color: white;
+}
+
+.fila.par{
+    background-color: aliceblue;
 }
