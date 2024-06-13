@@ -2,7 +2,7 @@
 include 'db.php';
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $id = $_GET["id"];
-    $sql = "DELETE FROM contactos WHERE id=$?";
+    $sql = "DELETE FROM contactos WHERE id=?";
     $stmt = $conn->prepare($sql);
 
     //VINCULAR EL PARAMETRO Y EJECUTAR

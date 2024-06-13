@@ -43,12 +43,18 @@
                 <div class="campo"><?=$row['nombre']?></div>
                 <div class="campo"><?=$row['telefono']?></div>
                 <div class="campo"><?=$row['correo']?></div>
-                <div class="campo"><?=$row['mensaje']?></div>
+                <div class="campo">
+                    <?=substr($row["mensaje"],0,51)?>...
+                </div>
                 <div class="btm-borrar">
                     <a href="borrar.php?id=<?=$row['id']?>">Borrar</a>
                 </div>
             </div>
         <?php
+    }
+
+    if($num===0){
+        echo "No hay registros que revisar.";
     }
 ?>
 
