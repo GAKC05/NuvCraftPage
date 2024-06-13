@@ -31,9 +31,16 @@
         </div>
     </div>
     <?php
+    $num=0;
     while($row = $result->fetch_assoc()){
+        $num++;
+        $paridad='impar';
+        if($num%2==0){
+            $paridad='par';
+        }
+        //PARIDAD INDICA SI ES PAR O IMPAR
         ?>
-            <div class="fila contenedor textonormal">
+            <div class="fila contenedor textonormal <?=$paridad?>">
                 <div class="campo"><?=$row['id']?></div>
                 <div class="campo"><?=$row['nombre']?></div>
                 <div class="campo"><?=$row['telefono']?></div>
