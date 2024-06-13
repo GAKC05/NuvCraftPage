@@ -3,11 +3,6 @@
     include "header.php";
     $sql = "SELECT id, nombre, telefono, correo, mensaje FROM contactos";
     $result=$conn->query($sql);
-
-    echo "<pre>";
-    var_dump($result);
-    echo $result->num_rows;
-    echo "</pre>";
 ?>
 
 <h2>Mensajes</h2>
@@ -29,6 +24,9 @@
         <div class="campoCabecera textonormal">
             Mensaje
         </div>
+        <div class="campoCabecera textonormal">
+            Acción
+        </div>
     </div>
     <?php
     $num=0;
@@ -40,12 +38,15 @@
         }
         //PARIDAD INDICA SI ES PAR O IMPAR
         ?>
-            <div class="fila contenedor textonormal <?=$paridad?>">
+            <div class="fila textonormal <?=$paridad?>">
                 <div class="campo"><?=$row['id']?></div>
                 <div class="campo"><?=$row['nombre']?></div>
                 <div class="campo"><?=$row['telefono']?></div>
                 <div class="campo"><?=$row['correo']?></div>
                 <div class="campo"><?=$row['mensaje']?></div>
+                <div class="btm-borrar">
+                    <a href="borrar.php?id=<?=$row['id']?>">Borrar</a>
+                </div>
             </div>
         <?php
     }
