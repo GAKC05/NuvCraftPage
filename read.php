@@ -47,7 +47,9 @@
                     <?=substr($row["mensaje"],0,51)?>...
                 </div>
                 <div class="btm-borrar">
-                    <a href="borrar.php?id=<?=$row['id']?>">Borrar</a>
+                    <a href="borrar.php?id=<?=$row['id']?>">
+                        <img src="img/delete_4219.png" alt style="width: 22px;">
+                    </a>
                 </div>
             </div>
         <?php
